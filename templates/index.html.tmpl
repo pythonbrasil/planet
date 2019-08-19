@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title><TMPL_VAR name></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
+    <link rel="stylesheet" href="planet.css" type="text/css">
+    <TMPL_IF feedtype>
+      <link rel="alternate" 
+            href="<TMPL_VAR feed ESCAPE="HTML">"
+	    title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"
+	    type="application/<TMPL_VAR feedtype>+xml">
+    </TMPL_IF>
+  </head>
+
+<body>
+  <h1>
+    <span class="logo">
+      <a href="http://www.python.org.br/" title="PythonBrasil">
+        <img src="/pybr/img/pythonbrasil_logo.png" alt="PythonBrasil" />
+      </a>
+    </span>
+    <TMPL_VAR name>
+  </h1>
+
+  <TMPL_LOOP Items>
+    <TMPL_IF new_date>
+      <TMPL_UNLESS __FIRST__>
+        </div>
+        </div>
+      </TMPL_UNLESS>
+      <div class="daygroup">
+      <h2><TMPL_VAR new_date></h2>
+    </TMPL_IF>
+
+    <TMPL_IF new_channel>
+      <TMPL_UNLESS new_date>
+        </div>
+      </TMPL_UNLESS>
+      <div class="channelgroup">
+
+      <h3>
+        <a href="<TMPL_VAR channel_link ESCAPE="HTML">"
+	   title="<TMPL_VAR channel_title_plain ESCAPE="HTML">">
+	  <TMPL_VAR channel_name>
+	</a>
+      </h3>
+
+      <TMPL_IF channel_face>
+        <img class="face"
+	     src="images/<TMPL_VAR channel_face ESCAPE="HTML">"
+	     width="<TMPL_VAR channel_facewidth ESCAPE="HTML">"
+	     height="<TMPL_VAR channel_faceheight ESCAPE="HTML">"
+	     alt="" />
+      </TMPL_IF>
+    </TMPL_IF>
+
+    <div class="entrygroup"
+         id="<TMPL_VAR id>"
+	 <TMPL_IF channel_language>
+	   lang="<TMPL_VAR channel_language>"
+	 </TMPL_IF>>
+
+<!-- google_ad_section_start -->
+    <TMPL_IF title>
+      <h4
+        <TMPL_IF title_language>
+	  lang="<TMPL_VAR title_language>"
+	</TMPL_IF>>
+        <a href="<TMPL_VAR link ESCAPE="HTML">">
+	  <TMPL_VAR title>
+	</a>
+      </h4>
+    </TMPL_IF>
+
+    <div class="entry">
+      <div class="content"
+           <TMPL_IF content_language>
+	     lang="<TMPL_VAR content_language>"
+	   </TMPL_IF>>
+        <TMPL_VAR content>
+      </div>
+<!-- google_ad_section_end -->
+
+      <p class="date">
+        <a href="<TMPL_VAR link ESCAPE="HTML">">
+	  <TMPL_IF author>
+	    por <TMPL_VAR author> em
+	  </TMPL_IF><TMPL_VAR date>
+	  <TMPL_IF category>
+	    em <TMPL_VAR category>
+	  </TMPL_IF>
+	</a>
+      </p>
+    </div>
+  </div>
+
+
+<TMPL_IF __LAST__>
+### End <div class="channelgroup">
+</div>
+### End <div class="daygroup">
+</div>
+</TMPL_IF>
+</TMPL_LOOP>
+
+
+<div class="sidebar">
+    <h2>Participantes</h2>
+    <ul>
+      <TMPL_LOOP Channels>
+        <li>
+	  <a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"> <img src="images/feed-icon-10x10.png" alt="(feed)"> </a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF> <TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
+        </li>
+      </TMPL_LOOP>
+    </ul>
+
+    <p>
+      <a href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-28x28.png" alt="Assine o feed" align="middle" border="0"/> Assine o feed
+      </a>
+    </p>
+
+    <p><strong>&Uacute;ltima atualiza&ccedil;&atilde;o:</strong><br /><TMPL_VAR date></p>
+
+    <p>Para solicitar a inclusão ou remoção de um blog neste Planet basta abrir um chamado no nosso <a href="https://github.com/pythonbrasil/apyb.gerenciamento/issues">Github</a></p>
+
+</div>
+
+<div class="footer">
+	<p>Powered by: <a href="http://www.planetplanet.org/">Planet</a></p>
+</div>
+</body>
+
+</html>

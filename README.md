@@ -1,9 +1,10 @@
-# planet
-Repo público para atualização da lista de sites do https://wiki.python.org.br/planet/
+# Planet
+
+Repo público para atualização da lista de sites do https://planet.python.org.br/
 
 ## Adição de Feeds:
 
-Para adicionar um feed, faça um PR com a adição no arquivo planet.conf
+Para adicionar um feed, faça um PR com a adição no arquivo config/planet.conf
 
 ## Template
 
