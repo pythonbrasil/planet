@@ -6,7 +6,7 @@
     <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
     <link rel="stylesheet" href="planet.css" type="text/css">
     <TMPL_IF feedtype>
-      <link rel="alternate" 
+      <link rel="alternate"
             href="<TMPL_VAR feed ESCAPE="HTML">"
 	    title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"
 	    type="application/<TMPL_VAR feedtype>+xml">
@@ -106,6 +106,42 @@
 
 
 <div class="sidebar">
+    <h2>Feeds</h2>
+
+    <p>
+      <a href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-10x10.png" alt="Assine o feed" align="middle" border="0"/> Atom
+      </a>
+    </p>
+
+    <p>
+      <a href="https://planet.python.org.br/rss10.xml" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-10x10.png" alt="Assine o feed" align="middle" border="0"/> RSS 10
+      </a>
+    </p>
+
+    <p>
+      <a href="https://planet.python.org.br/rss20.xml" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-10x10.png" alt="Assine o feed" align="middle" border="0"/> RSS 20
+      </a>
+    </p>
+
+    <p>
+      <a href="https://planet.python.org.br/opml.xml" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-10x10.png" alt="Assine o feed" align="middle" border="0"/> OPML
+      </a>
+    </p>
+
+    <p>
+      <a href="https://planet.python.org.br/foafroll.xml" style="border:0;text-decoration:none;">
+      <img src="images/feed-icon-10x10.png" alt="Assine o feed" align="middle" border="0"/> FOAFROLL
+      </a>
+    </p>
+
+    <p><strong>&Uacute;ltima atualiza&ccedil;&atilde;o:</strong><br /><TMPL_VAR date></p>
+
+    <p>Para solicitar a inclusão ou remoção de um blog neste Planet basta abrir um chamado no nosso <a href="https://github.com/pythonbrasil/planet/issues">Github</a></p>
+
     <h2>Participantes</h2>
     <ul>
       <TMPL_LOOP Channels>
@@ -114,17 +150,6 @@
         </li>
       </TMPL_LOOP>
     </ul>
-
-    <p>
-      <a href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" style="border:0;text-decoration:none;">
-      <img src="images/feed-icon-28x28.png" alt="Assine o feed" align="middle" border="0"/> Assine o feed
-      </a>
-    </p>
-
-    <p><strong>&Uacute;ltima atualiza&ccedil;&atilde;o:</strong><br /><TMPL_VAR date></p>
-
-    <p>Para solicitar a inclusão ou remoção de um blog neste Planet basta abrir um chamado no nosso <a href="https://github.com/pythonbrasil/apyb.gerenciamento/issues">Github</a></p>
-
 </div>
 
 <div class="footer">
