@@ -1,0 +1,167 @@
+body {
+	border-right: 1px solid black;
+	margin-right: 250px;
+	margin-left: 5em;
+	padding-right: 5em;
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+h1 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-family: sans-serif;
+	text-align: right;
+}
+
+span.logo {
+	float: left;
+}
+
+h1 img {
+    border: 0;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12pt;
+	color: #a0a0a0;
+}
+
+h3 {
+	margin-top: 3em;
+	font-family: sans-serif;
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 5px;
+	text-align: right;
+	font-size: 10pt;
+}
+
+h3 a {
+	background-color: #c0c0c0;
+	text-decoration: none;
+	color: inherit;
+	padding: 5px;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h4 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img.face {
+	float: right;
+	margin-top: -3em;
+}
+
+.entry {
+	margin-bottom: 2em;
+}
+
+.entry .date {
+	font-family: sans-serif;
+	color: #c0c0c0;
+	font-size: 8pt;
+}
+
+.entry .date a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.sidebar {
+	position: absolute;
+	top: 3em;
+	right: 5px;
+	width: 230px;
+	margin-left: 00px;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-left: 0px;
+	font-family: sans-serif;
+	font-size: 9pt;
+}
+
+.sidebar h2 {
+	font-size: 110%;
+	font-weight: bold;
+	color: black;
+
+	padding-left: 5px;
+	margin-left: 0px;
+}
+
+.sidebar ul {
+	padding-left: 1em;
+	margin-left: 0px;
+
+	list-style-type: none;
+}
+
+.sidebar ul li:hover {
+	color: grey;
+}
+
+.sidebar ul li a {
+        text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+        text-decoration: underline;
+}
+
+.sidebar ul li a img {
+        border: 0;
+}
+
+.sidebar p {
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.sidebar .message {
+    cursor: help;
+    border-bottom: 1px dashed red;
+}
+
+.sidebar a.message:hover {
+    cursor: help;
+	background-color: #ff0000;
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: blue !important;
+}
+
+hr {
+	display: none;
+}
+
+.footer {
+	text-align: center;
+	font-size: 8pt;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	clear: both;
+}
+
+.book {
+   float: left;
+   margin-right: 2em;
+   margin-bottom: 1em;
+   border: 0;
+}

@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rss="http://purl.org/rss/1.0/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<foaf:Group>
+	<foaf:name>Planeta PythonBrasil</foaf:name>
+	<foaf:homepage>http://planet.python.org.br/</foaf:homepage>
+	<rdfs:seeAlso rdf:resource="http://planet.python.org.br/foafroll.xml" />
+
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Allison Azevedo</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://allissonazevedo.com/tag/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Aprenda Python</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://aprenda-python.blogspot.com/">
+					<dc:title>Aprenda Python</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://aprenda-python.blogspot.com/atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Artificial Intelligence in Motion</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://aimotion.blogspot.com/">
+					<dc:title>Artificial Intelligence in Motion</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://aimotion.blogspot.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Blog do PauloHRPinheiro</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://paulohrpinheiro.xyz">
+					<dc:title>Paulo Henrique Rodrigues Pinheiro</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://paulohrpinheiro.xyz/texts/python/feed.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Bruno Cezar Rocha</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://brunorocha.org/">
+					<dc:title>BrunoRocha.org | Python web development | Tag pyplanet | feed</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://brunorocha.org/tag/pyplanet.atom" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Christiano Anderson</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://christiano.me">
+					<dc:title>python | Christiano Anderson</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://christiano.me/category/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Diego Manenti Martins</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://dmmartins.appspot.com/">
+					<dc:title>Diego Manenti Martins' blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.feedburner.com/dmmartins" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Dirceu Tiegs</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pipes.yahoo.com/pipes/pipe.info?_id=4hrQ3vtp3RGmZZNH_w6H4A">
+					<dc:title>dirceu.info -&gt; python</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.feedburner.com/dirceuinfopython" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Ellison Le&#227;o</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://medium.com/@ellisonleao?source=rss-1da16ca2137e------2">
+					<dc:title>Stories by Ellison Le&#227;o on Medium</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://medium.com/feed/@ellisonleao" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Eric Hideki</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://ericstk.wordpress.com">
+					<dc:title>Aprendendo Python</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://ericstk.wordpress.com/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Erico Andrei</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.erico.com.br">
+					<dc:title>Python</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.erico.com.br/blog/categories/python/RSS" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Fernando Rocha</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://livingintheshell.com/">
+					<dc:title>livingintheshell</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://livingintheshell.com/feeds/all.atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Filipe Saraiva</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blog.filipesaraiva.info">
+					<dc:title>planeta-python-brasil &#8211; Filipe Saraiva's blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://blog.filipesaraiva.info/?feed=rss2&amp;tag=planeta-python-brasil" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Flavio Ribeiro</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.flavioribeiro.com/">
+					<dc:title>Fl&#225;vio Ribeiro</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://blog.flavioribeiro.com/rss/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Fl&#225;vio Coelho</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pyinsci.blogspot.com/">
+					<dc:title>Python in Science</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://pyinsci.blogspot.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Francisco Souza</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://f.souza.cc/">
+					<dc:title>Francisco Souza</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://f.souza.cc/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Gabbleblotchits</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blog.luizirber.org/">
+					<dc:title>Gabbleblotchits</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://blog.luizirber.org/atom.xml?tag=python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Gileno Filho</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://gilenofilho.com.br/tag/python/rss/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Grupy-DF</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://grupydf.github.io/">
+					<dc:title>Grupy-DF</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://df.python.org.br/blog/feeds.atom" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Gustavo Niemeyer</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blog.labix.org">
+					<dc:title>Labix Blog</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://blog.labix.org/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Humberto Rocha</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://humberto.io/pt-br/tags/python/">
+					<dc:title>python on Humberto Rocha</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://humberto.io/pt-br/tags/python/index.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Inno::Blog</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://techberto.wordpress.com/tag/python/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Juracy Filho</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://juracy.wordpress.com">
+					<dc:title>Python &#8211; Juracy Filho &#8211; Simplesmente eu</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://juracy.wordpress.com/tag/python/feed/atom/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Kodumaro</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://kodumaro.blogspot.com/search/label/Python">
+					<dc:title>Kodumaro</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://kodumaro.blogspot.com/feeds/posts/default/-/Python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Lauro Moura</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://lauro.wordpress.com">
+					<dc:title>Lauro Moura</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://lauro.wordpress.com/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Leandro Lameiro</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://lameiro.wordpress.com">
+					<dc:title>Python &#8211; Blog do Lameiro</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://lameiro.wordpress.com/tag/python/feed/atom/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Linil</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://linil.wordpress.com">
+					<dc:title>Python</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://linil.wordpress.com/category/python/feed/atom/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Luciano Ramalho</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.ramgarlic.com/">
+					<dc:title>Ramgarlic</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://blog.ramgarlic.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Magnun Leno</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://mindbending.org/pt/">
+					<dc:title>Mind Bending em Portug&#234;s</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.feedburner.com/MindBending-pt" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Marcelo Lira</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://setanta.wordpress.com">
+					<dc:title>Setanta's Place</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://setanta.wordpress.com/tag/python/feed/atom" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Marco Andr&#233; Lopes Mendes</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://marrcandre.blogspot.com/search/label/python">
+					<dc:title>marrcandr&#233;</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://marrcandre.blogspot.com/feeds/posts/default/-/python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Marcos Daniel</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://medeubranco.wordpress.com">
+					<dc:title>Python &#8211; Me Deu Branco!</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://medeubranco.wordpress.com/tag/python/feed/atom/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>MetaPython</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://metapython.blogspot.com/">
+					<dc:title>metapython</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://metapython.blogspot.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Mosaico Livre</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://claudiotorcato.wordpress.com">
+					<dc:title>Mosaico Livre</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://claudiotorcato.wordpress.com/tag/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Nilo Ney Coutinho Menezes</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://blog.nilo.pro.br/tags/python/">
+					<dc:title>python on Nilo Menezes</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://blog.nilo.pro.br/tags/python/index.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>No Sleep For You</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://nosleepforyou.blogspot.com/">
+					<dc:title>No sleep for you</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://nosleepforyou.blogspot.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Osvaldo Santana Neto</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pythonologia.org">
+					<dc:title>Pythonologia</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://pythonologia.org/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>PUG - PE</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://pugpe.wordpress.com">
+					<dc:title>PUG-PE</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://pugpe.wordpress.com/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>PowerPython</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://powerpython.wordpress.com">
+					<dc:title>powerpython</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://powerpython.wordpress.com/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Programando Ci&#234;ncia</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://programandociencia.com">
+					<dc:title>python &#8211; Programando Ci&#234;ncia</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://programandociencia.com/tag/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Python Help</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://pythonhelp.wordpress.com">
+					<dc:title>python &#8211; Python Help</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://pythonhelp.wordpress.com/tag/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Python Notes</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pythonnotes.blogspot.com/">
+					<dc:title>Python Notes</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://pythonnotes.blogspot.com/atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>PythonClub</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pythonclub.com.br/">
+					<dc:title>PythonClub</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://pythonclub.com.br/feeds/all.atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Pythonidae</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://pythonidae.blogspot.com/">
+					<dc:title>Pythonidae</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://pythonidae.blogspot.com/atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Ricardo Banffy</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.dieblinkenlights.com">
+					<dc:title>Dieblinkenlights</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.dieblinkenlights.com/search_rss?Subject%3Alist=python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Rodolpho Eckhardt</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://rodolpho.onoeck.de/tags/python/">
+					<dc:title>python on rodolpho</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://rodolpho.onoeck.de/tags/python/index.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Rodrigo Amaral</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://ramaral.wordpress.com">
+					<dc:title>Python &#8211; Rodrigo Amaral</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://ramaral.wordpress.com/tag/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Rodrigo Delduca</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://nullonerror.org/">
+					<dc:title>NULL on error</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.feedburner.com/NullOnError?format=xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Ruda Filgueiras</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://python-blog.blogspot.com/">
+					<dc:title>Python, Zope and Plone Experiments</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://python-blog.blogspot.com/atom.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>The Mind Caster</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://themindcaster.blogspot.com/">
+					<dc:title>The Mindcaster</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://themindcaster.blogspot.com/feeds/posts/default" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Thiago Avelino</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://avelino.run/blog/">
+					<dc:title>Blogs on Avelino</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.feedburner.com/pyavelino" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Victor Poluceno</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://victorpoluceno.blogspot.com/search/label/python">
+					<dc:title>Ni</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://victorpoluceno.blogspot.com/feeds/posts/default/-/python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Vinta Software</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="https://www.vinta.com.br/blog/category/python/">
+					<dc:title>Vinta's Blog Python Tag</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://www.vinta.com.br/python/feed/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>sergiofasilva.com</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.sergiofasilva.com/tag/python">
+					<dc:title>Sergio Silva Blogue (python)</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.sergiofasilva.com/feed/python" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>&#193;lvaro J&#252;sten</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.justen.eng.br/">
+					<dc:title>Blog do @Turicas</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://blog.justen.eng.br/rss.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+
+</foaf:Group>
+</rdf:RDF>
