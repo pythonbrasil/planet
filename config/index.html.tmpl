@@ -4,7 +4,8 @@
     <title><TMPL_VAR name></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
-    <link rel="stylesheet" href="planet.css" type="text/css">
+    <link rel="icon" type="image/png" href="static/images/favicon.ico">
+    <link rel="stylesheet" href="static/styles/planet.css" type="text/css">
     <TMPL_IF feedtype>
       <link rel="alternate"
             href="<TMPL_VAR feed ESCAPE="HTML">"
@@ -17,7 +18,7 @@
   <h1>
     <span class="logo">
       <a href="https://python.org.br/" title="PythonBrasil">
-        <img src="images/pythonbrasil_logo.png" alt="PythonBrasil" />
+        <img src="static/images/pythonbrasil_logo.png" alt="PythonBrasil" />
       </a>
     </span>
     <TMPL_VAR name>
@@ -48,7 +49,7 @@
 
       <TMPL_IF channel_face>
         <img class="face"
-	     src="images/<TMPL_VAR channel_face ESCAPE="HTML">"
+	     src="static/images/<TMPL_VAR channel_face ESCAPE="HTML">"
 	     width="<TMPL_VAR channel_facewidth ESCAPE="HTML">"
 	     height="<TMPL_VAR channel_faceheight ESCAPE="HTML">"
 	     alt="" />
@@ -111,7 +112,7 @@
     <ul>
         <li>
             <a href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">">
-                <img src="images/feed-icon-10x10.png" alt="Assine o feed"/>
+                <img src="static/images/feed-icon-10x10.png" alt="Assine o feed"/>
             </a>
             <a href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">">
                 Atom
@@ -120,7 +121,7 @@
 
         <li>
             <a href="https://planet.python.org.br/rss10.xml">
-                <img src="images/feed-icon-10x10.png" alt="Assine o feed"/>
+                <img src="static/images/feed-icon-10x10.png" alt="Assine o feed"/>
             </a>
             <a href="https://planet.python.org.br/rss10.xml">
                 RSS 10
@@ -129,7 +130,7 @@
 
         <li>
             <a href="https://planet.python.org.br/rss20.xml">
-                <img src="images/feed-icon-10x10.png" alt="Assine o feed"/>
+                <img src="static/images/feed-icon-10x10.png" alt="Assine o feed"/>
             </a>
             <a href="https://planet.python.org.br/rss20.xml">
                 RSS 20
@@ -138,7 +139,7 @@
 
         <li>
             <a href="https://planet.python.org.br/opml.xml">
-                <img src="images/feed-icon-10x10.png" alt="Assine o feed"/>
+                <img src="static/images/feed-icon-10x10.png" alt="Assine o feed"/>
             </a>
             <a href="https://planet.python.org.br/opml.xml">
                 OPML
@@ -147,7 +148,7 @@
 
         <li>
             <a href="https://planet.python.org.br/foafroll.xml">
-                <img src="images/feed-icon-10x10.png" alt="Assine o feed"/>
+                <img src="static/images/feed-icon-10x10.png" alt="Assine o feed"/>
             </a>
             <a href="https://planet.python.org.br/foafroll.xml">
                 FOAFROLL
@@ -164,7 +165,7 @@
     <ul>
       <TMPL_LOOP Channels>
         <li>
-	        <a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"> <img src="images/feed-icon-10x10.png" alt="(feed)"> </a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF> <TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
+	        <a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"> <img src="static/images/feed-icon-10x10.png" alt="(feed)"> </a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF> <TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
         </li>
       </TMPL_LOOP>
     </ul>
