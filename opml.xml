@@ -2,7 +2,7 @@
 <opml version="1.1">
 	<head>
 		<title>Planeta PythonBrasil</title>
-		<dateModified>Mon, 12 Jul 2021 18:01:03 +0000</dateModified>
+		<dateModified>Thu, 17 Apr 2025 02:15:10 +0000</dateModified>
 		<ownerName>Python Brasil</ownerName>
 		<ownerEmail>contato@python.org.br</ownerEmail>
 	</head>
@@ -12,56 +12,56 @@
 		<outline type="rss" text="Aprenda Python" xmlUrl="http://aprenda-python.blogspot.com/atom.xml" title="Aprenda Python" />
 		<outline type="rss" text="Artificial Intelligence in Motion" xmlUrl="http://aimotion.blogspot.com/feeds/posts/default" title="Artificial Intelligence in Motion" />
 		<outline type="rss" text="Blog do PauloHRPinheiro" xmlUrl="https://paulohrpinheiro.xyz/texts/python/feed.xml" title="Paulo Henrique Rodrigues Pinheiro" />
-		<outline type="rss" text="Bruno Cezar Rocha" xmlUrl="http://brunorocha.org/tag/pyplanet.atom" title="BrunoRocha.org | Python web development | Tag pyplanet | feed" />
-		<outline type="rss" text="Christiano Anderson" xmlUrl="https://christiano.me/category/python/feed/" title="python | Christiano Anderson" />
+		<outline type="rss" text="Bruno Cezar Rocha" xmlUrl="http://brunorocha.org/tag/pyplanet.atom" title="Bruno Cezar Rocha" />
+		<outline type="rss" text="Christiano Anderson" xmlUrl="https://christiano.me/category/python/feed/" title="Christiano Anderson" />
 		<outline type="rss" text="Diego Manenti Martins" xmlUrl="http://feeds.feedburner.com/dmmartins" title="Diego Manenti Martins' blog" />
 		<outline type="rss" text="Dirceu Tiegs" xmlUrl="http://feeds.feedburner.com/dirceuinfopython" title="dirceu.info -&amp;gt; python" />
-		<outline type="rss" text="Ellison Le&#227;o" xmlUrl="https://medium.com/feed/@ellisonleao" title="Stories by Ellison Le&#227;o on Medium" />
+		<outline type="rss" text="Ellison Leão" xmlUrl="https://dev.to/feed/ellisonleao" title="DEV Community: Ellison Leão" />
 		<outline type="rss" text="Eric Hideki" xmlUrl="https://ericstk.wordpress.com/feed/" title="Aprendendo Python" />
-		<outline type="rss" text="Erico Andrei" xmlUrl="http://www.erico.com.br/blog/categories/python/RSS" title="Python" />
+		<outline type="rss" text="Erico Andrei" xmlUrl="http://www.erico.com.br/blog/categories/python/RSS" title="Erico Andrei" />
 		<outline type="rss" text="Fernando Rocha" xmlUrl="http://livingintheshell.com/feeds/all.atom.xml" title="livingintheshell" />
-		<outline type="rss" text="Filipe Saraiva" xmlUrl="https://blog.filipesaraiva.info/?feed=rss2&amp;tag=planeta-python-brasil" title="planeta-python-brasil &#8211; Filipe Saraiva's blog" />
-		<outline type="rss" text="Flavio Ribeiro" xmlUrl="http://blog.flavioribeiro.com/rss/" title="Fl&#225;vio Ribeiro" />
-		<outline type="rss" text="Fl&#225;vio Coelho" xmlUrl="http://pyinsci.blogspot.com/feeds/posts/default" title="Python in Science" />
-		<outline type="rss" text="Francisco Souza" xmlUrl="https://f.souza.cc/feeds/posts/default" title="Francisco Souza" />
+		<outline type="rss" text="Filipe Saraiva" xmlUrl="https://blog.filipesaraiva.info/?feed=rss2&amp;tag=planeta-python-brasil" title="planeta-python-brasil – Filipe Saraiva's blog" />
+		<outline type="rss" text="Flavio Ribeiro" xmlUrl="http://blog.flavioribeiro.com/rss/" title="Flávio Ribeiro" />
+		<outline type="rss" text="Flávio Coelho" xmlUrl="http://pyinsci.blogspot.com/feeds/posts/default" title="Python in Science" />
+		<outline type="rss" text="Francisco Souza" xmlUrl="http://f.souza.cc/feeds/posts/default" title="Francisco Souza" />
 		<outline type="rss" text="Gabbleblotchits" xmlUrl="https://blog.luizirber.org/atom.xml?tag=python" title="Gabbleblotchits" />
 		<outline type="rss" text="Gileno Filho" xmlUrl="http://gilenofilho.com.br/tag/python/rss/" title="Gileno Filho" />
 		<outline type="rss" text="Grupy-DF" xmlUrl="http://df.python.org.br/blog/feeds.atom" title="Grupy-DF" />
 		<outline type="rss" text="Gustavo Niemeyer" xmlUrl="https://blog.labix.org/feed" title="Labix Blog" />
-		<outline type="rss" text="Humberto Rocha" xmlUrl="https://humberto.io/pt-br/tags/python/index.xml" title="python on Humberto Rocha" />
+		<outline type="rss" text="Humberto Rocha" xmlUrl="https://humberto.io/pt-br/tags/python/index.xml" title="Python on Humberto Rocha" />
 		<outline type="rss" text="Inno::Blog" xmlUrl="http://techberto.wordpress.com/tag/python/" title="Inno::Blog" />
-		<outline type="rss" text="Juracy Filho" xmlUrl="https://juracy.wordpress.com/tag/python/feed/atom/" title="Python &#8211; Juracy Filho &#8211; Simplesmente eu" />
+		<outline type="rss" text="Juracy Filho" xmlUrl="https://juracy.wordpress.com/tag/python/feed/atom/" title="Juracy Filho" />
 		<outline type="rss" text="Kodumaro" xmlUrl="http://kodumaro.blogspot.com/feeds/posts/default/-/Python" title="Kodumaro" />
 		<outline type="rss" text="Lauro Moura" xmlUrl="https://lauro.wordpress.com/feed/" title="Lauro Moura" />
-		<outline type="rss" text="Leandro Lameiro" xmlUrl="https://lameiro.wordpress.com/tag/python/feed/atom/" title="Python &#8211; Blog do Lameiro" />
+		<outline type="rss" text="Leandro Lameiro" xmlUrl="https://lameiro.wordpress.com/tag/python/feed/atom/" title="Python – Blog do Lameiro" />
 		<outline type="rss" text="Linil" xmlUrl="https://linil.wordpress.com/category/python/feed/atom/" title="Python" />
 		<outline type="rss" text="Luciano Ramalho" xmlUrl="http://blog.ramgarlic.com/feeds/posts/default" title="Ramgarlic" />
-		<outline type="rss" text="Magnun Leno" xmlUrl="http://feeds.feedburner.com/MindBending-pt" title="Mind Bending em Portug&#234;s" />
+		<outline type="rss" text="Magnun Leno" xmlUrl="http://feeds.feedburner.com/MindBending-pt" title="Mind Bending em Portugês" />
 		<outline type="rss" text="Marcelo Lira" xmlUrl="http://setanta.wordpress.com/tag/python/feed/atom" title="Setanta's Place" />
-		<outline type="rss" text="Marco Andr&#233; Lopes Mendes" xmlUrl="http://marrcandre.blogspot.com/feeds/posts/default/-/python" title="marrcandr&#233;" />
-		<outline type="rss" text="Marcos Daniel" xmlUrl="https://medeubranco.wordpress.com/tag/python/feed/atom/" title="Python &#8211; Me Deu Branco!" />
+		<outline type="rss" text="Marco André Lopes Mendes" xmlUrl="http://marrcandre.blogspot.com/feeds/posts/default/-/python" title="marrcandré" />
+		<outline type="rss" text="Marcos Daniel" xmlUrl="https://medeubranco.wordpress.com/tag/python/feed/atom/" title="Python – Me Deu Branco!" />
 		<outline type="rss" text="MetaPython" xmlUrl="https://metapython.blogspot.com/feeds/posts/default" title="metapython" />
 		<outline type="rss" text="Mosaico Livre" xmlUrl="http://claudiotorcato.wordpress.com/tag/python/feed/" title="Mosaico Livre" />
-		<outline type="rss" text="Nilo Ney Coutinho Menezes" xmlUrl="https://blog.nilo.pro.br/tags/python/index.xml" title="python on Nilo Menezes" />
+		<outline type="rss" text="Nilo Ney Coutinho Menezes" xmlUrl="https://blog.nilo.pro.br/tags/python/index.xml" title="Python on Nilo Menezes" />
 		<outline type="rss" text="No Sleep For You" xmlUrl="http://nosleepforyou.blogspot.com/feeds/posts/default" title="No sleep for you" />
-		<outline type="rss" text="Osvaldo Santana Neto" xmlUrl="http://pythonologia.org/feed/" title="Pythonologia" />
+		<outline type="rss" text="Osvaldo Santana Neto" xmlUrl="http://pythonologia.org/feed/" title="Osvaldo Santana Neto" />
 		<outline type="rss" text="PUG - PE" xmlUrl="https://pugpe.wordpress.com/feed/" title="PUG-PE" />
 		<outline type="rss" text="PowerPython" xmlUrl="https://powerpython.wordpress.com/feed/" title="powerpython" />
-		<outline type="rss" text="Programando Ci&#234;ncia" xmlUrl="https://programandociencia.com/tag/python/feed/" title="python &#8211; Programando Ci&#234;ncia" />
-		<outline type="rss" text="Python Help" xmlUrl="https://pythonhelp.wordpress.com/tag/python/feed/" title="python &#8211; Python Help" />
+		<outline type="rss" text="Programando Ciência" xmlUrl="https://programandociencia.com/tag/python/feed/" title="Programando Ciência" />
+		<outline type="rss" text="Python Help" xmlUrl="https://pythonhelp.wordpress.com/tag/python/feed/" title="python – Python Help" />
 		<outline type="rss" text="Python Notes" xmlUrl="http://pythonnotes.blogspot.com/atom.xml" title="Python Notes" />
-		<outline type="rss" text="PythonClub" xmlUrl="http://pythonclub.com.br/feeds/all.atom.xml" title="PythonClub" />
+		<outline type="rss" text="PythonClub" xmlUrl="https://pythonclub.com.br/feeds/all.atom.xml" title="PythonClub" />
 		<outline type="rss" text="Pythonidae" xmlUrl="http://pythonidae.blogspot.com/atom.xml" title="Pythonidae" />
 		<outline type="rss" text="Ricardo Banffy" xmlUrl="http://www.dieblinkenlights.com/search_rss?Subject%3Alist=python" title="Dieblinkenlights" />
-		<outline type="rss" text="Rodolpho Eckhardt" xmlUrl="https://rodolpho.onoeck.de/tags/python/index.xml" title="python on rodolpho" />
-		<outline type="rss" text="Rodrigo Amaral" xmlUrl="https://ramaral.wordpress.com/tag/python/feed/" title="Python &#8211; Rodrigo Amaral" />
+		<outline type="rss" text="Rodolpho Eckhardt" xmlUrl="https://rodo.lpho.de/tags/python/index.xml" title="Rodolpho Eckhardt" />
+		<outline type="rss" text="Rodrigo Amaral" xmlUrl="https://ramaral.wordpress.com/tag/python/feed/" title="Python – Rodrigo Amaral" />
 		<outline type="rss" text="Rodrigo Delduca" xmlUrl="http://feeds.feedburner.com/NullOnError?format=xml" title="NULL on error" />
 		<outline type="rss" text="Ruda Filgueiras" xmlUrl="http://python-blog.blogspot.com/atom.xml" title="Python, Zope and Plone Experiments" />
 		<outline type="rss" text="The Mind Caster" xmlUrl="http://themindcaster.blogspot.com/feeds/posts/default" title="The Mindcaster" />
-		<outline type="rss" text="Thiago Avelino" xmlUrl="http://feeds.feedburner.com/pyavelino" title="Blogs on Avelino" />
+		<outline type="rss" text="Thiago Avelino" xmlUrl="http://feeds.feedburner.com/pyavelino" title="The Afterparty Podcast /w Strip Club Concierge Las Vegas!" />
 		<outline type="rss" text="Victor Poluceno" xmlUrl="http://victorpoluceno.blogspot.com/feeds/posts/default/-/python" title="Ni" />
-		<outline type="rss" text="Vinta Software" xmlUrl="https://www.vinta.com.br/python/feed/" title="Vinta's Blog Python Tag" />
-		<outline type="rss" text="sergiofasilva.com" xmlUrl="http://www.sergiofasilva.com/feed/python" title="Sergio Silva Blogue (python)" />
-		<outline type="rss" text="&#193;lvaro J&#252;sten" xmlUrl="http://blog.justen.eng.br/rss.xml" title="Blog do @Turicas" />
+		<outline type="rss" text="Vinta Software" xmlUrl="https://www.vinta.com.br/python/feed/" title="Vinta Software" />
+		<outline type="rss" text="sergiofasilva.com" xmlUrl="http://www.sergiofasilva.com/feed/python" title="sergiofasilva.com" />
+		<outline type="rss" text="Álvaro Jüsten" xmlUrl="http://blog.justen.eng.br/rss.xml" title="Blog do @Turicas" />
 	</body>
 </opml>
