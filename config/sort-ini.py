@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
 import sys
+import os
+import shutil
 from configparser import DEFAULTSECT, RawConfigParser
+from tempfile import mkstemp
 
 if len(sys.argv) > 1:
     filename = sys.argv[1]
@@ -11,34 +14,34 @@ else:
 oconfig = RawConfigParser()
 oconfig.read(filename)
 
-# This part will destroy the configuration if there's a crash while
-# writing the output.  We're in an GIT-controlled directory, so
-# I didn't care enough to fix this.
-with open(filename, "w") as fd:
-    # Copy of write() code that sorts output by section
-    if oconfig._defaults:
-        fd.write("[%s]\n" % DEFAULTSECT)
-        for key, value in oconfig._defaults.items():
-            fd.write("{} = {}\n".format(key, str(value).replace("\n", "\n\t")))
-        fd.write("\n")
+fd, path = mkstemp()
+
+with os.fdopen(fd, "w") as fp:
+    if oconfig.defaults():
+        fp.write("[%s]\n" % DEFAULTSECT)
+        for key, value in oconfig.defaults().items():
+            fp.write("{} = {}\n".format(key, str(value).replace("\n", "\n\t")))
+        fp.write("\n")
 
     result = {}
-    for section in sorted(oconfig._sections):
+    for section in sorted(oconfig.sections()):
         if section == "Planet":
-            fd.write("[%s]\n" % section)
-        for key, value in oconfig._sections[section].items():
+            fp.write("[%s]\n" % section)
+        for key, value in oconfig.items(section, raw=True):
             if key != "__name__":
                 if section == "Planet":
-                    fd.write("{} = {}\n".format(key, str(value).replace("\n", "\n\t")))
+                    fp.write("{} = {}\n".format(key, str(value).replace("\n", "\n\t")))
                 else:
                     result[value.replace('"', "")] = section
         if section == "Planet":
-            fd.write("\n")
+            fp.write("\n")
 
     for key, value in sorted(result.items()):
-        fd.write("[%s]\n" % value)
+        fp.write("[%s]\n" % value)
         name = key
         if "'" in key:
             name = '"%s"' % key
-        fd.write("name = %s\n" % name)
-        fd.write("\n")
+        fp.write("name = %s\n" % name)
+        fp.write("\n")
+
+shutil.move(path, filename)
